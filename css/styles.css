@@ -1,0 +1,179 @@
+body{
+    font-family: 'Montserrat-Black',sans-serif;;
+}
+
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+
+h1{
+    font-family:'Montserrat-Black',sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+} 
+
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-bottom: 1rem;
+
+}
+
+h3{
+    font-weight: bold;
+   
+}
+p{
+    color: #8f8f8f;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* navigation */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family:"Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+ .nav-item{
+    padding: 0 18px;
+ }
+
+ .nav-link{
+    font-size: 1.2rem;
+    font-weight: lighter;
+ }
+
+ /* download buttons */
+
+ .download-button{
+    margin: 5% 3% 5% 0;
+ }
+
+ /* iphone6 */
+
+ .iphone6{
+    width: 25%;
+    transform: rotate(30deg);
+    position: absolute;
+
+ }
+
+ /* features-images */
+
+
+ #features{
+    padding: 7% 15%;
+    z-index: 10;
+    position: relative;
+    background-color: white;
+ }
+
+ .feature-box{
+    text-align: center;
+    padding-bottom: 6%;
+ }
+
+ .icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+ }
+ .icon:hover{
+    color: #ff4c68;
+ }
+
+/* testimonials */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* press */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* pricing */
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+    text-align: center;
+}
+
+/* media */
+
+@media (max-width:1028px){
+
+    #title{
+        text-align: center;
+    }
+    .iphone6{
+        position: static;
+        transform: rotate(0);
+        width: 35%;
+    }
+}
+
+/* call for action */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    padding-bottom: 15%;
+}
+
+/* footer button */
+.footbtn{
+    margin: 15px;
+}
+
+/* footer */
+
+#footer{
+    text-align: center;
+    background-color: white;
+}
+
+.call{
+    font-size: 3rem;
+    line-height: 2;
+    margin-bottom: 5%;
+}
+
+.footer-icons{
+    margin: 7px;
+}
